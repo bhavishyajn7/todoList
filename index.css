@@ -1,0 +1,51 @@
+.container {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+
+}
+.main {
+    padding:20px;
+}
+form{
+    background-color: azure;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+}
+input[type='text']{
+    height:30px;
+    outline:0;
+    font-size: 1rem;
+    color: burlywood;
+    flex-grow: 1;
+}
+button{
+    font-size: 1.5 rem;
+    background-color: cornsilk;
+    outline: 0;
+    color: darkgoldenrod;
+}
+li{
+    display: flex;
+    align-items: center;
+    color: darkgoldenrod;
+}
+.clearall{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10 px 3px;
+}
+.todoList{
+    background-color:white;
+    border-radius: 5px;
+    height: auto;
+}
+.todo-item{
+    flex-grow: 1;
+}
+i{ 
+    pointer-events: none;
+}
